@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&family=Sawarabi+Gothic&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/stylesheets/login.css" />
+    <title>Login</title>
+  </head>
+
+  <body>
+    <div id="main">
+      <%- include('partials/nav')  %>
+      <div id="content">
+        <div id="log">
+          <center><h1>Login.</h1></center>
+          <form action="">
+            <label for="usname">Enter Your Username:</label>
+            <br />
+            <span><i class="ri-user-line"></i></span>
+            <input type="text" id="usname" />
+            <br /><br />
+            <label for="password">Enter Your Password:</label>
+            <br />
+            <span><i class="ri-lock-password-line"></i></span>
+            <input type="password" id="password" />
+            <br /><br />
+            <button class="continue">Log In</button>
+            <center><h4>---OR---</h4></center>
+            <div id="icon">
+              <button class="gogle">
+                <i class="ri-google-fill"></i> <span>Continue With Google</span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

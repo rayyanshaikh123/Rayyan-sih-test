@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+ 
+ .navbar{
+    width: 95%;
+    margin: auto;
+    padding: 5.5px 0;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+   
+}
+.navbar img{
+            width: 40px;
+            padding-bottom: 20px;
+           
+            margin-top: 20px;
+        }
+.navbar ul li{
+     list-style: none;
+     display: inline-block;
+     margin: 0 20px;
+     position: relative;
+     font-size: 100%;
+}
+.navbar   ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    gap: 40px;
+    padding-top: 20px;
+}
+.ri-menu-line{
+    display: none;
+   
+    font-size: 1.7em;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #9A3B3B;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+@media (max-width:700px) {
+            .navbar a{
+                display: none;
+            }
+            .navbar ul li .ri-menu-line{
+            display: block;
+        }
+        .navbar ul li:hover::after{
+            display: none;
+        }
+        
+    }
+    </style>
+ <div class="navbar">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOl9NuX_lrVJR6Fe72uIuxahxvHFxcDkD-9A&usqp=CAU" alt="Logo" class="logo">
+    <ul>
+        <li><a href="./home">home</a></li>
+       <li><a href="./about">About</a></li>
+       <li> <a href="">Disable</a></li>
+       <li><a href="">Language</a></li>
+       <li><a href="./login">Login</a></li>
+       <li> <a href="./register">Register</a></li> 
+       <li><i class="ri-menu-line"></i></li>
+       
+        
+        
+       
+    </ul>
+</div>
+
+</body>
+</html>

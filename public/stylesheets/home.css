@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#main {
+    width: 100%;
+}
+
+#home {
+    width: 100%;
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NBwcHDQ0HDQcHBw0HBwcNBw8NDQcNFREXFiARFRMYHSggJCYlGx8VITEtMSk0LjouFyQzOD8vNyk5NiwBCgoKDQ0NDg0NDzcZFRktKysrLSstKzc3KysrKysrKy0tLSstKzcrKysrKysrKysrNysrKysrKysrKysrKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAACAQADBQf/xAAcEAEBAAIDAQEAAAAAAAAAAAAAEQEhMVHhIgL/xAAXAQEBAQEAAAAAAAAAAAAAAAABAAQF/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/APokaFGjhR2KESHEghoRocSIhEhxIFRiQ4kUNCJDjQGucaHEiNCJHSJBDQiQ4kUNCJHSJBDQiQ4kEVCNDiRQhEhxIDQjQ4kSoJDjQQ0IhxIjRZY0BRmZJmZkntxIcaNbBXOJHSJAqESHEihoRocSCGhEhxooaESHEgIRocSBUIkOJFDQjQ4kBoRIcaI1zjQ4kRoRIcSCKhGhxIIaESOkSCGhEhxIoQjQo0BoRIcSJUIkdIkBoRDiRGvdjQ4kbHOoRIcSKGjEhxIIaESHGghrnGhxIlQiQ40ENCJDiQQ0I0OJFDQiQ40Bc40OJEqESHGgNCJDiRQ0IkdIkBoRIcSJUI0OJBDQiQ4kENCNDiRQ0IkOJBCMSHEgVe7Ehxo2ufQiQ4kENCJDjRKhEhxIDQjQo0RoRIcSCGjEhxIIqESHGiNc40OJAaESHGihoRIcSCGhEhxoIqESHEiIRocSA0IkOJFDQjQ4kCoRIcaI0IkOJBDQjQo0UNe7EhxI2RzqEaFGghoRIcSA0I0OIjQiQ40EVCJDiRGhEhxoDQiQ4kRoRoUaCKhEhxIoaESOkSCGhEhxIDQjQ4kUNCJDiQQ0YkOJBEESHGiIRIcSA0I0OJFFQiQ4kBr3Y0KNG2OfQiQ4kEVCNDiQQ0IkOJFDRiQ4kENCJDjRQ0IkOJAqESOkSA0IkOJFDQiR0iQGhEhxIjQjQ4kEVCJDjRQ0IkOJAaESOkSA0IkOJFFQjQo0ENCJDiQQ0I0OJEXuxIcSNjnUI0OJEaESHGghoRIcSKEIkONBFQiQ4kENBocSKGhEhxIIaEaHEiVCJDjQGucaHEgNCJDjRQ1zjQ4kBoRI6RIlQiQ4kUNCNDiQQ0IkONBDXONDiQKhEhxIoa92NDiRsjn0IkOJFDRiQ4kCoRoUaI0IkOJAaEaHEihoRIcSCKjEhxIDQiQ40UNc40OJBDQiQ40ENCIcSKKhGhRoDQiQ4kRoRocSCGhEhxIjQjQ4kCoRIcSKGjEhxIIa92JDjRsc6hEhxIoaESOkSA0IkONBDXONDiRRUIkOJAaEaHEiNCJDjQGhEhxIoaESHGgioRIcSA0IkdIkUNCIcaCGucaHEgioRIcaKGhEhxIDQiQ40RoRIcSCGhEhxolXuNGZrc9IkJkaMSHEiVCNDiQEIkOJFDRiQ4kEVCJDjQQ0IkOJFDQiQ40ENCJDiRGhEjpEgNCJDjRRVzjQ4kENCJDjQGhEhxIoaESOkSCKhEhxIoaESHGghoRIcSA17DMzUwszMkzMyTNGZJI0ZkUiRWRSJGYJI0RgWiRmRSJGYJokVkaMaMwKJGZFokZgUiRmRaJGYJIP7up3vVZgUzbxidj9deMyTb68XGMzfLMC/9k=");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  
+}
+
+.content {
+    width: 100%;
+    height: calc(100vh - 105px);
+  
+    padding: 8vmax 8vmax;
+
+}
+
+.content h1 {
+    width: 100%;
+    display: inline;
+    font-size: 4.5vmax;
+    font-weight: 600;
+    padding: 0 10px;
+    margin-top: 60px;
+}
+.content p{
+    margin-top: 20px;
+    font-weight: 600;
+    width: 90%;
+    font-size: 1em;
+}
+.pic {
+    width: 100%;
+
+    height: calc(100vh - 105px);
+}
+
+.pic img {
+    width: 90%;
+    margin-top: 18%;
+    border-radius: 3px;
+    box-shadow: 1px 7px 15px -7px black;
+}
+
+@media (max-width:1100px) {
+    .content{
+        margin-top: 30px;
+    }
+    .pic{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width:700px) {
+    .head{
+    flex-direction: column-reverse;
+    
+}
+.content{
+     max-height: 30vh;
+    width: 100%;
+    padding: 0 4vmax;
+    text-align: center;
+}
+.content p{
+    margin-left: 26px;
+}
+.content h1{
+    display: inline;
+}
+.pic{
+    max-height: 48vh;
+}
+.pic img{
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+}
+ .assistant{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+  
+ }
+ .video{
+    min-height: 10vh;
+ }
+ video{
+    width: 100%;
+  
+ }
+ .con h1{
+   position: relative;
+   top: -4%;
+    text-align: center;
+ }
+.con{
+    min-height: fit-content;
+}
+.video video{
+    width:60vmax;
+    height:60vmax;
+    position: relative;
+    top: 15%;
+}
+
+
+}
+@media (max-width:500px) {
+    .content{
+     max-height: 40vh;
+    }
+    
+}
+
+.assistant{
+    background-color: black;
+    border-radius: 18px;
+    display: flex;
+    height: 120vh;
+}
+.con{
+    min-height: 40vh;
+}
+.video{
+    min-height: 20vh;
+}
+.video video{
+    width:40vmax;
+    height:40vmax;
+    margin-top: 35%;
+}
+
+.con h1{
+    padding-top: 35%;
+    margin: 5% 10%;
+    font-size: 5vmax;
+    color: white;
+}
+.department{
+    width: 100%;
+   height: 100vh;
+}
+.department h1{
+    margin-top: 10vmax ;
+    margin-left: 7.5vmax;
+    font-size: 4em;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.img img{
+    width: 350px;
+    height: 300px;
+}
+.line{
+    width: 85%;
+    background-color: black;
+    height: 4px;
+    margin: 2% 0;
+    margin-left: 7.5%;
+    margin-bottom: 7%;
+}
